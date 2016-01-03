@@ -1,0 +1,24 @@
+<div class="box box-primary direct-chat direct-chat-primary no-border no-margin">
+
+    <div class="box-body box-chat-view">
+        <div class="direct-chat-messages">
+            <dir-friend-message></dir-friend-message>
+            <dir-self-message></dir-self-message>
+            <dir-self-message></dir-self-message>
+            <dir-self-message></dir-self-message>  
+            <div ng-bind-html="WindowKeys" style="text-decoration: none"></div>
+        </div>
+    </div>
+    <!-- /.box-body -->
+    <div class="box-footer">
+        <form action="#" method="post">
+            <div class="input-group">
+                <input name="message" placeholder="Type Message ..." class="form-control" type="text">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-primary btn-flat">Send</button>
+                </span>
+            </div>
+        </form>
+    </div>
+    <!-- /.box-footer-->
+</div>
